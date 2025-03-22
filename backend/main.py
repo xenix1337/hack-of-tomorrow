@@ -3,6 +3,8 @@ from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
 from pydantic import BaseModel
 
+from blockchain import createPlayer, giveItem, destroyItem, giveMoney, takeMoney, getItem, getItems, getPlayerItemIds, getPlayerData
+
 # ====================== Database Setup ============================
 DATABASE_URL = "sqlite:///./test.db"  # SQLite file-based DB
 
