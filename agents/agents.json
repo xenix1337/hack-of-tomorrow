@@ -1,0 +1,29 @@
+[
+    {
+        "name": "bob",
+        "port": 9001,
+        "seed": "bob secret phrase",
+        "endpoint": [
+            "http://127.0.0.1:9001/submit"
+        ],
+        "recipient_address": "test-agent://agent1q2kxet3vh0scsf0sm7y2erzz33cve6tv5uk63x64upw5g68kr0chkv7hw50"
+    },
+    {
+        "name": "alice",
+        "port": 9000,
+        "seed": "alice secret phrase",
+        "endpoint": [
+            "http://127.0.0.1:9000/submit"
+        ],
+        "recipient_address": "test-agent://agent1qdp9j2ev86k3h5acaayjm8tpx36zv4mjxn05pa2kwesspstzj697xy5vk2a"
+    },
+    {
+        "name": "martin",
+        "port": 9002,
+        "seed": "martin secret phrase",
+        "endpoint": [
+            "http://127.0.0.1:9002/submit"
+        ],
+        "recipient_address": "test-agent://agent1qtw665cr8m8s98jvn2a5yfangflpv4chzu2ftjsqet0vedyr5wq2w7q06n9"
+    }
+]

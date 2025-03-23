@@ -1,3 +1,11 @@
+#Hardhat files
+cache
+artifacts
+deployments
+
+#Env
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
